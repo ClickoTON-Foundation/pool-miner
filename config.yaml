@@ -1,0 +1,11 @@
+POOL_API: 'https://pool.tonclick.online/api/v1'
+MINERS:
+  - pow-miner-cuda.exe # Windows NVIDIA
+  - pow-miner-opencl.exe # Windows AMD
+  - ./pow-miner-cuda # Linux NVIDIA
+  - ./pow-miner-opencl # Linux AMD
+REWARD_ADDRESS: 'вводить_сюда' # Ваш кошелёк
+GPUS: 1 # Количество видеокарт
+BOOST_FACTORS: [4096, 4096] # Буст факторы видеокарт по порядку (для продвинутых)
+MINER: pow-miner-cuda.exe # Используемый майнер
+
